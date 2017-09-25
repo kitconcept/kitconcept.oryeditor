@@ -6,6 +6,9 @@
 kitconcept.oryeditor
 ==============================================================================
 
+.. image:: https://travis-ci.org/kitconcept/kitconcept.oryeditor.svg?branch=master
+    :target: https://travis-ci.org/kitconcept/kitconcept.oryeditor
+
 Tell me what your product does
 
 Features
