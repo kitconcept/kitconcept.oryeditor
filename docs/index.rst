@@ -1,0 +1,5 @@
+====================
+kitconcept.oryeditor
+====================
+
+User documentation
