@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "kind": "block",
+      "type": "HEADINGS/HEADING-ONE",
+      "nodes": [{ "kind": "text", "text": "Header 1" }]
+    },
+    {
+      "kind": "block",
+      "type": "HEADINGS/HEADING-TWO",
+      "nodes": [{ "kind": "text", "text": "Header 2" }]
+    },
+    {
+      "kind": "block",
+      "type": "HEADINGS/HEADING-THREE",
+      "nodes": [{ "kind": "text", "text": "Header 3" }]
+    },
+    {
+      "kind": "block",
+      "type": "HEADINGS/HEADING-FOUR",
+      "nodes": [{ "kind": "text", "text": "Header 4" }]
+    },
+    {
+      "kind": "block",
+      "type": "HEADINGS/HEADING-FIVE",
+      "nodes": [{ "kind": "text", "text": "Header 5" }]
+    },
+    {
+      "kind": "block",
+      "type": "HEADINGS/HEADING-SIX",
+      "nodes": [{ "kind": "text", "text": "Header 6" }]
+    },
+    {
+      "kind": "block",
+      "type": "PARAGRAPH/PARAGRAPH",
+      "nodes": [
+        {
+          "kind": "text",
+          "ranges": [
+            { "text": "Text with " },
+            { "text": "bold", "marks": [{ "type": "EMPHASIZE/STRONG" }] },
+            { "text": " and " },
+            { "text": "italic", "marks": [{ "type": "EMPHASIZE/EM" }] },
+            { "text": " and " },
+            { "text": "underline", "marks": [{ "type": "EMPHASIZE/U" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "type": "LISTS/UNORDERED-LIST",
+      "nodes": [
+        {
+          "kind": "block",
+          "type": "PARAGRAPH/PARAGRAPH",
+          "nodes": [{ "kind": "text", "text": "ul item 1" }]
+        },
+        {
+          "kind": "block",
+          "type": "PARAGRAPH/PARAGRAPH",
+          "nodes": [{ "kind": "text", "text": "ul item 2" }]
+        }
+      ]
+    },
+    {
+      "kind": "block",
+      "type": "LISTS/ORDERED-LIST",
+      "nodes": [
+        {
+          "kind": "block",
+          "type": "PARAGRAPH/PARAGRAPH",
+          "nodes": [{ "kind": "text", "text": "ol item 1" }]
+        },
+        {
+          "kind": "block",
+          "type": "PARAGRAPH/PARAGRAPH",
+          "nodes": [{ "kind": "text", "text": "ol item 2" }]
+        }
+      ]
+    }
+  ]
+}
